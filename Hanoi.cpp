@@ -2,7 +2,7 @@
 using namespace std;
 void Hanoi(int n,char a,char b,char c);
 void Move(int n,char a,char b);
-int main() 
+int main()
 {   int n;
     printf("Input the number of disks:");
     scanf("%d",&n);
@@ -23,3 +23,4 @@ else
 void Move(int n,char a,char b)
 {cout<<"Move"<<n<<": from "<<a<<" to "<<b<<endl;
 }
+//modified for lab branch practice step R11
